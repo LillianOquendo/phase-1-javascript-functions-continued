@@ -19,12 +19,13 @@ function mondayWork (activity2){
     }
 
 }
+console.log (mondayWork)
 let wrapAdjective = function(type = "*") {
 	return function(word = "special") {
 		return `You are ${type}${word}${type}!`
 		}
 	}
-    
+
     
 
 
